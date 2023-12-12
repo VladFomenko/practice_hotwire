@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root 'quotes#index'
 
-  resource :quote
+  resources :quotes
 end
